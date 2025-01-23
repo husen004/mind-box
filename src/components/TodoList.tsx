@@ -44,7 +44,6 @@ const TodoList: React.FC = () => {
     if (filter === 'completed') return task.completed;
     return true; 
   });
-
   return (
     <div className="max-w-lg mx-auto p-4 bg-white shadow-md rounded-3xl shadow-xl w-[600px]">
     <h1 className="text-3xl font-bold text-center mb-4">Todo List</h1>
